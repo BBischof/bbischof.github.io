@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Hyperbolicity
+title: Site Title
 locale: en_US
-description: Personal Page for Bryan E. Bischof
+description: Describe your website here.
 logo: site-logo.png
 search: true
-url: bbischof.com
+url: http://localhost:4000
 
 # Jekyll configuration
 
@@ -48,13 +48,13 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Bryan Bischof
+  name: Your Name
   avatar: bio-photo.jpg
-  email: bryan.bischof@gmail.com
+  email: you@email.com
   disqus-shortname:
-  twitter: #bebischof
+  twitter: #username
   facebook: #username
-  github: #bbischof
+  github: #username
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
