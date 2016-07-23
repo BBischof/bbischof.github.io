@@ -36,4 +36,4 @@ d3.nest().key(function(d) {return d.violation_type}).entries(data)
 
 and then I did the fun thing of deciding how to draw this data. The data sets were so small, and so limited in time-scale, but I like the idea of something histogram-y. Since the number of total points was tiny, and one-dimensional, I remembered that beeswarms could be usable. So I went with that.
 
-Here's the live (version)[http://bl.ocks.org/BBischof/a9e166f26ea11e01d838273e34a043b6].
+Here's the live [version](http://bl.ocks.org/BBischof/a9e166f26ea11e01d838273e34a043b6).
