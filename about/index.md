@@ -9,4 +9,4 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-This is the personal site of Bryan Bischof. Mostly math and mathematical perspectives. He is the person who created (quasiCoherent Labs)[www.quasicoherentlabs.com]. 
+This is the personal site of Bryan Bischof. Mostly math and mathematical perspectives. He is the person who created [quasiCoherent Labs](www.quasicoherentlabs.com). 
