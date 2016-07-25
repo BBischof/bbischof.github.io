@@ -37,3 +37,10 @@ d3.nest().key(function(d) {return d.violation_type}).entries(data)
 and then I did the fun thing of deciding how to draw this data. The data sets were so small, and so limited in time-scale, but I like the idea of something histogram-y. Since the number of total points was tiny, and one-dimensional, I remembered that beeswarms could be usable. So I went with that.
 
 Here's the live [version](http://bl.ocks.org/BBischof/a9e166f26ea11e01d838273e34a043b6).
+
+## An Alternative 
+
+The reality is, while the beeswarm is fun and kinda cool, I have to admit that it might just be better to use a calendar visualization. Because it's all a single year I can use the exploded version of the calendar that takes up a bit more space and really highlights the delineation between the months. 
+
+Here's the live [version](http://bl.ocks.org/BBischof/7607b90705281634c6da741c34d9ba7c).
+
