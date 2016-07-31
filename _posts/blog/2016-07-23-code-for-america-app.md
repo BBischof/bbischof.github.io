@@ -4,7 +4,7 @@ title: "Code for America App"
 modified:
 categories: blog
 excerpt:
-tags: [jobs]
+tags: [jobs, visualization, d3.js]
 image:
   feature:
 date: 2016-07-23T08:08:50-04:00
