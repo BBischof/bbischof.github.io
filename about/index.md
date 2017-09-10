@@ -6,7 +6,7 @@ modified: 2016-07-23T19:44:38.564948-04:00
 image:
   feature: tesselation.jpg
   credit: Archillect
-  creditlink: -
+  creditlink:
 ---
 
 This is the personal site of Bryan Bischof. Mostly math and mathematical perspectives.
