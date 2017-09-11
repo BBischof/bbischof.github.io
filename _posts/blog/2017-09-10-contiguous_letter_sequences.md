@@ -47,6 +47,8 @@ After running through the above, I knew in my mind that I wanted some matrix pre
 
 I used Tableau to simplify generating the graphics, which for this simple of a project, was plenty.
 
+![Two matrices for two differently sized dictionaries](/images/consec_words_matrix_double.png){:class="img-responsive"}
+
 <figure>
     <img src="../../images/consec_words_matrix_double.png" alt="consec_words_matrix_double">
     <figcaption>Two matrices for two differently sized dictionaries</figcaption>
