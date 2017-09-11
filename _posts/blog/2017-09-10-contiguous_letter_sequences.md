@@ -50,7 +50,7 @@ I used Tableau to simplify generating the graphics, which for this simple of a p
 <!-- ![Two matrices for two differently sized dictionaries](/images/consec_words_matrix_double.jpg){:class="img-responsive"} -->
 
 <figure>
-    <img src="../../images/consec_words_matrix_double.jpg" alt="consec_words_matrix_double">
+    <img src="/images/consec_words_matrix_double_small.jpg" alt="consec_words_matrix_double">
     <figcaption>Two matrices for two differently sized dictionaries</figcaption>
 </figure>
 
