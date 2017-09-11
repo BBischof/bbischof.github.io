@@ -63,7 +63,7 @@ I liked that the big stair steps in the matrices show where certain letters have
 Because I was thinking about how short the words were in terms of their subsequence, I decided to compute `efficiency` of the words. Hueristically, this meant `how many letters beyond the subsequence were necessary to create the word`. We expect that as the subsequence grows in length, the efficiency will also decrease, and that was true.
 
 <figure>
-    <img src="../../images/consec_words_efficiency.jpg" alt="consec_words_efficiency">
+    <img src="images/consec_words_efficiency_small.jpg" alt="consec_words_efficiency">
     <figcaption>Efficiency matrix for large dictionary</figcaption>
 </figure>
 
