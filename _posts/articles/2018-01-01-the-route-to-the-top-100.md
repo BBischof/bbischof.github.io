@@ -14,7 +14,7 @@ The shortest cycling route that climbs the top 100 climbs in the continental US.
 
 <!-- ^Spoiler Text^ -->
 
-# The route to the top 100
+# The idea
 
 A while back, Randal Olson posted a blog post about the [optimal road trip across the US](http://www.randalolson.com/2015/03/08/computing-the-optimal-road-trip-across-the-u-s/). The parameters of his project were to design a car trip that touched all the states, and he used landmarks in each state to make it more interesting. Two things really stood out about this to me:
 - he open-sourced a nice notebook that allowed a fair bit of customization, but wrapped up some of more annoying API/wrapper stuff and the genetic algorithm
@@ -168,7 +168,7 @@ Here is a short list of _data changes_ that I made:
 
 Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://ridewithgps.com/routes/26535908), [3](https://ridewithgps.com/routes/26535916), [4](https://ridewithgps.com/routes/26535920), [5](https://ridewithgps.com/routes/26535926), [6](https://ridewithgps.com/routes/26535934), [7](https://ridewithgps.com/routes/26535938), [8](https://ridewithgps.com/routes/26535948), [9](https://ridewithgps.com/routes/26535957), [10](https://ridewithgps.com/routes/26535964)), all with ten climbs each. Again, **ridewithGPS** to the rescue; combining was relatively painless. Although, I'll admit that it's a little hard on the browser to have close to 300 waypoints stretched over 14000 miles of route, unsurprisingly.
 
-**So I guess, it's time to [show it to you!!!](https://ridewithgps.com/routes/26633832)?**
+💯 **[So I guess, it's time to show it to you!!!](https://ridewithgps.com/routes/26633832)?** 💯
 
 <figure>
     <img src="/images/fullRouteRunthrough.gif" alt="that was a freebie">
@@ -190,6 +190,10 @@ Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://
 ## Next Steps
 
 First, I want to mention an accidental offshoot of this project: _maximal sub-routes_. By this I mean, "what are some sections of this route which maximize the elevation/mileage trade-off?" These are things that you could consider turning into crazy Gran-Fondos like the [California Triple Crown series](http://www.caltriplecrown.com/) which are hard-as-nails double centuries. There are some obvious ones in this data-set, and some manual inspection can find some cute little things like Mile 310-510 in the [4th route](https://ridewithgps.com/routes/26535920) which contains almost 30k climbing on six of the top 100 climbs! _([HRS I'm looking at you here!](http://www.highrouleur.cc/))_
+
+<figure>
+    <img src="/images/SierrasHardDoubleCentury.png" alt="a toughie">
+</figure>
 
 I'll be following this post up with some fun dives into snippets like the above.
 
