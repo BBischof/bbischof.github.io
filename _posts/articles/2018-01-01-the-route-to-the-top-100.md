@@ -1,6 +1,6 @@
 ---
  layout: post
- title: "The-route-to-the-top-100"
+ title: "The route to the top 100"
  modified:
  categories: articles
  excerpt:
@@ -28,7 +28,9 @@ This turned out to be a tiny bit complicated for a few reasons...
 
 Note: _I wanted this to be a cycling route, no usage of boats allowed. So Hawaii was out. Unfortunately—and somewhat surprisingly, Hawaii has 7 of the top 100 road climbs in the US. Luckily, the list provided 107 climbs, so that's a freebie._
 
-[gif of gob]
+<figure>
+    <img src="/images/freebie.jpg" alt="that was a freebie">
+</figure>
 
 ## Some challenges
 
@@ -43,7 +45,19 @@ Again, the visualization code died on this route. This time, it was a mixture of
 
 I managed to do some small adjustments and finally get an image for this stage of the visualization, knowing that there was much more to do. I also broke the route up into ten pieces, anticipating the difficulties due to scale.
 
-[screenshots]
+<figure class="third">
+  <img src="/images/google-maps-image-routepart-01.png" alt="part 1"></a>
+  <img src="/images/google-maps-image-routepart-02.png" alt="part 2"></a>
+  <img src="/images/google-maps-image-routepart-03.png" alt="part 3"></a>
+  <img src="/images/google-maps-image-routepart-04.png" alt="part 4"></a>
+  <img src="/images/google-maps-image-routepart-05.png" alt="part 5"></a>
+  <img src="/images/google-maps-image-routepart-06.png" alt="part 6"></a>
+  <img src="/images/google-maps-image-routepart-07.png" alt="part 7"></a>
+  <img src="/images/google-maps-image-routepart-08.png" alt="part 8"></a>
+  <img src="/images/google-maps-image-routepart-09.png" alt="part 9"></a>
+  <img src="/images/google-maps-image-routepart-10.png" alt="part 10"></a>
+  <figcaption>Initial plots of route starts via Google Maps.</figcaption>
+</figure>
 
 ## Transitioning to an actual cycling route
 
