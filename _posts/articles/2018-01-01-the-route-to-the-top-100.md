@@ -26,7 +26,7 @@ The easiest way to describe what happened next is to say that I got inspired by 
 
 This turned out to be a tiny bit complicated for a few reasons...
 
-Note: _I wanted this to be a cycling route, no usage of boats allowed. So Hawaii was out. Unfortunately—and somewhat surprisingly, Hawaii has 7 of the top 100 road climbs in the US. Luckily, the list provided 107 climbs, so that's a freebie._
+Note: _I wanted this to be a cycling route, no usage of boats allowed. So Hawaii was out. Unfortunately—and somewhat surprisingly, Hawaii has 7 of the top 100 road climbs in the US. Luckily, the list provided 107 climbs, so..._
 
 <figure>
     <img src="/images/freebie.gif" alt="that was a freebie">
@@ -42,39 +42,38 @@ My first round yielded a route that the visualization couldn't plot because many
 Again, the visualization code died on this route. This time, it was a mixture of some bad waypoints, and a few other things:
 - the route was longer than the maximum alloted
 - some locations were on roads that are not bike friendly so Google maps disliked this
-- some locations were connected by seasonal roads, so Google maps disliked this_(this issue returns later)_
+- some locations were connected by seasonal roads, so Google maps disliked this _(this issue returns later)_
 
 I managed to do some small adjustments and finally get an image for this stage of the visualization, knowing that there was much more to do. I also broke the route up into ten pieces, anticipating the difficulties due to scale.
 
 <figure>
-  <img src="/images/google-maps-image-routepart-01.png" alt="part 1"></a>
+  <img src="/images/google-maps-image-routepart-01.png" alt="part 1">
   <figcaption>The long first route.</figcaption>
 </figure>
 
 <figure class="third">
-  <img src="/images/google-maps-image-routepart-02.png" alt="part 2"></a>
-  <img src="/images/google-maps-image-routepart-03.png" alt="part 3"></a>
-  <img src="/images/google-maps-image-routepart-04.png" alt="part 4"></a>
+  <img src="/images/google-maps-image-routepart-02.png" alt="part 2">
+  <img src="/images/google-maps-image-routepart-03.png" alt="part 3">
+  <img src="/images/google-maps-image-routepart-04.png" alt="part 4">
   <figcaption>Plots of route starts via Google Maps.</figcaption>
 </figure>
 
 <figure class="half">
-  <img src="/images/google-maps-image-routepart-05.png" alt="part 5"></a>
-  <img src="/images/google-maps-image-routepart-06.png" alt="part 6"></a>
-  <figcaption>Plots of route starts via Google Maps.</figcaption>
+  <img src="/images/google-maps-image-routepart-05.png" alt="part 5">
+  <img src="/images/google-maps-image-routepart-06.png" alt="part 6">
 </figure>
 
 <figure class="half">
-  <img src="/images/google-maps-image-routepart-07.png" alt="part 7"></a>
-  <img src="/images/google-maps-image-routepart-08.png" alt="part 8"></a>
+  <img src="/images/google-maps-image-routepart-07.png" alt="part 7">
+  <img src="/images/google-maps-image-routepart-08.png" alt="part 8">
 </figure>
 
 <figure>
-  <img src="/images/google-maps-image-routepart-09.png" alt="part 9"></a>
+  <img src="/images/google-maps-image-routepart-09.png" alt="part 9">
 </figure>
 
 <figure>
-  <img src="/images/google-maps-image-routepart-10.png" alt="part 10"></a>
+  <img src="/images/google-maps-image-routepart-10.png" alt="part 10">
   <figcaption>The last ten.</figcaption>
 </figure>
 
@@ -169,7 +168,11 @@ Here is a short list of _data changes_ that I made:
 
 Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://ridewithgps.com/routes/26535908), [3](https://ridewithgps.com/routes/26535916), [4](https://ridewithgps.com/routes/26535920), [5](https://ridewithgps.com/routes/26535926), [6](https://ridewithgps.com/routes/26535934), [7](https://ridewithgps.com/routes/26535938), [8](https://ridewithgps.com/routes/26535948), [9](https://ridewithgps.com/routes/26535957), [10](https://ridewithgps.com/routes/26535964)), all with ten climbs each. Again, **ridewithGPS** to the rescue; combining was relatively painless. Although, I'll admit that it's a little hard on the browser to have close to 300 waypoints stretched over 14000 miles of route, unsurprisingly.
 
-**So I guess, it's time to [show you it!!!](https://ridewithgps.com/routes/26633832)?**
+**So I guess, it's time to [show it to you!!!](https://ridewithgps.com/routes/26633832)?**
+
+<figure>
+    <img src="/images/fullRouteRunthrough.gif" alt="that was a freebie">
+</figure>
 
 ## By the numbers
 
