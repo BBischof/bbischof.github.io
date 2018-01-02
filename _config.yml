@@ -45,13 +45,16 @@ page_layout: page
 # Format titles with titlecase?
 titlecase: true
 
+#disqus commenting
+comments: true
+
 
 # Site owner
 owner:
   name: Bryan Bischof
   avatar: doreCat.gif
   email: bryan.bischof@gmail.com
-  disqus-shortname:
+  disqus-shortname: bbischof
   twitter: bebischof
   facebook: #username
   github: bbischof
