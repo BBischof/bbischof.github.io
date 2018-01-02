@@ -29,8 +29,9 @@ This turned out to be a tiny bit complicated for a few reasons...
 Note: _I wanted this to be a cycling route, no usage of boats allowed. So Hawaii was out. Unfortunately—and somewhat surprisingly, Hawaii has 7 of the top 100 road climbs in the US. Luckily, the list provided 107 climbs, so that's a freebie._
 
 <figure>
-    <img src="/images/freebie.jpg" alt="that was a freebie">
+    <img src="/images/freebie.gif" alt="that was a freebie">
 </figure>
+
 
 ## Some challenges
 
@@ -45,18 +46,36 @@ Again, the visualization code died on this route. This time, it was a mixture of
 
 I managed to do some small adjustments and finally get an image for this stage of the visualization, knowing that there was much more to do. I also broke the route up into ten pieces, anticipating the difficulties due to scale.
 
-<figure class="third">
+<figure>
   <img src="/images/google-maps-image-routepart-01.png" alt="part 1"></a>
+  <figcaption>The long first route.</figcaption>
+</figure>
+
+<figure class="third">
   <img src="/images/google-maps-image-routepart-02.png" alt="part 2"></a>
   <img src="/images/google-maps-image-routepart-03.png" alt="part 3"></a>
   <img src="/images/google-maps-image-routepart-04.png" alt="part 4"></a>
+  <figcaption>Plots of route starts via Google Maps.</figcaption>
+</figure>
+
+<figure class="half">
   <img src="/images/google-maps-image-routepart-05.png" alt="part 5"></a>
   <img src="/images/google-maps-image-routepart-06.png" alt="part 6"></a>
+  <figcaption>Plots of route starts via Google Maps.</figcaption>
+</figure>
+
+<figure class="half">
   <img src="/images/google-maps-image-routepart-07.png" alt="part 7"></a>
   <img src="/images/google-maps-image-routepart-08.png" alt="part 8"></a>
+</figure>
+
+<figure>
   <img src="/images/google-maps-image-routepart-09.png" alt="part 9"></a>
+</figure>
+
+<figure>
   <img src="/images/google-maps-image-routepart-10.png" alt="part 10"></a>
-  <figcaption>Initial plots of route starts via Google Maps.</figcaption>
+  <figcaption>The last ten.</figcaption>
 </figure>
 
 ## Transitioning to an actual cycling route
