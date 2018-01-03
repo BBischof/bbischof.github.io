@@ -10,21 +10,23 @@
  date: 2018-01-01T00:00:01-04:00
 ---
 
-The shortest cycling route that climbs the top 100 climbs in the continental US.
+The shortest¹ cycling route that climbs the top 100 climbs in the continental US.
 
 <!-- ^Spoiler Text^ -->
 
 # The idea
 
-A while back, Randal Olson posted a blog post about the [optimal road trip across the US](http://www.randalolson.com/2015/03/08/computing-the-optimal-road-trip-across-the-u-s/). The parameters of his project were to design a car trip that touched all the states, and he used landmarks in each state to make it more interesting. Two things really stood out about this to me:
-- he open-sourced a nice notebook that allowed a fair bit of customization, but wrapped up some of more annoying API/wrapper stuff and the genetic algorithm
+A while back, Randal Olson posted a blog post about the [optimal road trip across the US](http://www.randalolson.com/2015/03/08/computing-the-optimal-road-trip-across-the-u-s/). The parameters of his project were to design a car trip that touched all the states, and he used landmarks in each state to make it more interesting.
+
+Two things really stood out about this to me:
+- he open-sourced his notebook that wrapped up some of more annoying API/wrapper stuff and the genetic algorithm
 - he noted that the API accepted a `bike routes` flag!
 
-The easiest way to describe what happened next is to say that I got inspired by these two observations. My project, was essentially:
+I was inspired! In addition to a mathy, I'm a serious lover of cycling. My project, was essentially:
 
-**_Mash the dataset of [Top 100 road cycling climbs](https://www.pjammcycling.com/) with Randal Olson's project to achieve the minimal bike route that includes all these climbs_.**
+**_Combine the dataset of [Top 100 road cycling climbs](https://www.pjammcycling.com/) with Randal Olson's project to achieve the minimal bike route that includes all these climbs_.**
 
-This turned out to be a tiny bit complicated for a few reasons...
+The Top 100 road climbs is a nice project by **pjammcycling** that rank the hardest climbs in the US(as defined by Fiets index).
 
 Note: _I wanted this to be a cycling route, no usage of boats allowed. So Hawaii was out. Unfortunately—and somewhat surprisingly, Hawaii has 7 of the top 100 road climbs in the US. Luckily, the list provided 107 climbs, so..._
 
@@ -32,17 +34,29 @@ Note: _I wanted this to be a cycling route, no usage of boats allowed. So Hawaii
     <img src="/images/freebie.gif" alt="that was a freebie">
 </figure>
 
+## A little about the math
+
+More details are in Randy's post, but I'll provide a super short explanation of the idea.
+
+This is the famous [Traveling Salesman Problem](https://www.wikiwand.com/en/Travelling_salesman_problem) which finds the order that minimizes the distance to visit a collection of sites.
+
+In our case, the starts of the climbs are the sites. We use Google Maps API to find cycling routes between each pair of sites(that's 10000 measurements).
+
+Once you have all the pairwise distance it would require `n!` or `10000!`(this is over `35000` digits) different orderings you'd have to try. We use something called a genetic algorithm which picks a random order, changes some and checks if it improves or worsens. After many many iterations it comes to a good, but not necessarily perfect solution¹.
+
 
 ## Some challenges
 
-Initially, I was going to grab the list of locations, throw them into his notebook, and let it crunch. I had a feeling immediately that things weren't going to be easy, because the names of the locations weren't very accurate.
+Initially, I was going to grab the list of locations names from **pjamm**, run them through his notebook, and let it crunch. But I was wary that things weren't going to be easy, because the names of the locations weren't very accurate.
 
-My first round yielded a route that the visualization couldn't plot because many of the locations it couldn't find anything for. I switched to `(lat, long)` after a few small modifications to his notebook. This worked much better at getting me close to the initial points for each of the climbs.
+My first round yielded a route that the Google Maps visualization API couldn't plot because many of the locations it couldn't find anything for. I switched to `(lat, long)` after a few small modifications to his notebook. This worked much better at getting me close to the initial points for each of the climbs.
 
 Again, the visualization code died on this route. This time, it was a mixture of some bad waypoints, and a few other things:
 - the route was longer than the maximum alloted
 - some locations were on roads that are not bike friendly so Google maps disliked this
 - some locations were connected by seasonal roads, so Google maps disliked this _(this issue returns later)_
+
+## Google Maps visualizations
 
 I managed to do some small adjustments and finally get an image for this stage of the visualization, knowing that there was much more to do. I also broke the route up into ten pieces, anticipating the difficulties due to scale.
 
@@ -88,7 +102,7 @@ At this point, I took a major step back. The relatively naive approach I was tak
 
 ## The dataset
 
-Until this moment I'd been able to simply copy the table off the front page, and with some text-editor dexterity, turn it into something that looked like a data set. Now, I knew I needed to do a few things:
+Until this moment I'd been able to simply copy the table off the front page _(Note that the website has changed a bit recently)_ , and with some text-editor dexterity, turn it into something that looked like a data set. Now, I knew I needed to do a few things:
 
 - scrape the dataset and make sure it was clean and more easily referenced
 - download the Strava segments for each climb and add the segment number to my dataset
@@ -168,7 +182,9 @@ Here is a short list of _data changes_ that I made:
 
 Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://ridewithgps.com/routes/26535908), [3](https://ridewithgps.com/routes/26535916), [4](https://ridewithgps.com/routes/26535920), [5](https://ridewithgps.com/routes/26535926), [6](https://ridewithgps.com/routes/26535934), [7](https://ridewithgps.com/routes/26535938), [8](https://ridewithgps.com/routes/26535948), [9](https://ridewithgps.com/routes/26535957), [10](https://ridewithgps.com/routes/26535964)), all with ten climbs each. Again, **ridewithGPS** to the rescue; combining was relatively painless. Although, I'll admit that it's a little hard on the browser to have close to 300 waypoints stretched over 14000 miles of route, unsurprisingly.
 
-💯 **[So I guess, it's time to show it to you!!!](https://ridewithgps.com/routes/26633832)?** 💯
+💯💯💯 **[So I guess, it's time to show it to you!!!](https://ridewithgps.com/routes/26633832)?** 💯💯💯
+
+^^^^^^ Click to explore the interactive route on **ridewithGPS** ^^^^^^
 
 <figure>
     <img src="/images/fullRouteRunthrough.gif" alt="that was a freebie">
@@ -186,6 +202,7 @@ Now I had ten routes ([1](https://ridewithgps.com/routes/26535896), [2](https://
 - The [dataset](https://github.com/BBischof/top100ClimbsRoute/blob/master/RoutesData.csv) was extracted originally in November, 2017. I wont likely be updating the routes.
 - The actual route doesn't change as the ranking list changes, but, obviously, it will be effected if totally new routes are added.
 - Bear Camp was not in the dataset when the original dataset was built, hence it's not included. [Here](https://www.pjammcycling.com/oregon---bear-camp.html) is the route. It should be in [this section](https://ridewithgps.com/routes/26535916) of the route, before you climb [Mt. Ashland](https://www.pjammcycling.com/91.--mt.-ashland--or.html) the Strava route for the new Bear Camp is [here](https://www.strava.com/segments/7625827)
+- As of just yesterday, the **pjammcycling** website has changed dramatically. Additionally, they've expanded to worldwide now 😏.
 
 ## Next Steps
 
@@ -197,5 +214,7 @@ First, I want to mention an accidental offshoot of this project: _maximal sub-ro
 
 I'll be following this post up with some fun dives into snippets like the above.
 
-Finally, I want to mention that this project, believe it or not, is part one. To keep the mystery alive, I'll only mention that part two is to compute the _Best of the Top 100_, and more generally a **Strava ELO...**
+Finally, I want to mention that this project, believe it or not, is part one. To keep the mystery alive, I'll only mention that part two is to compute the _Best of the Top 100_, and more generally a **StraVaELO...**
+
+
 
