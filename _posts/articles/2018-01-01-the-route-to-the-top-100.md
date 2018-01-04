@@ -127,7 +127,7 @@ I still hadn't found a solution to either of my plotting problems. So, I thought
 
 _"I'll buckle down and input all these lat/long by hand"_
 
-Luckily, I had the foresight to split them into ten-climb groups. It took about an hour, but I build the original ten routes, by copy-pasting lat/long pairs into [ridewithGPS](ridewithgps.com).
+Luckily, I had the foresight to split them into ten-climb groups. It took about an hour, but I build the original ten routes, by copy-pasting lat/long pairs into [ridewithGPS](https://ridewithgps.com).
 
 A note about **ridewithGPS**: I think that I'd more naturally use Strava to build the route, because all of the climbs have the effort data, but **ridewithGPS'** route tool is hands-down easier to use, and allows for addition of waypoints, splitting, combining, etc. _I'm not confident this project would be possible with Strava's route tool, but doable with **ridewithGPS'**_.
 
