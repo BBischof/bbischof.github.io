@@ -113,7 +113,10 @@ start_of_month_availability = incoming_availability - used_before_first_order
 
 As an example, with the data above, you can compute the purchase amounts. In this case let's assume the incoming_availability is `12` and our target is twice the biggest week's usage: `22`, it looks like this:
 
-![center-aligned-image](demand_graph.png){: .align-center}
+<figure>
+    <img src="/images/demand_graph.png" alt="Graph of ongoing availability of TP">
+    <figcaption>Available TP vs. our Target</figcaption>
+</figure>
 
 ```
 purchase: 19
