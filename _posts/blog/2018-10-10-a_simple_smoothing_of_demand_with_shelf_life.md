@@ -28,7 +28,7 @@ We'll return to this later.
 
 ## Available rolls
 
-We dont want to run out, period. As not-a-risk taker, and someone who occasionally throws parties, I want at least _twice as much_ TP around as I normally need. Let's then say whatever my average usage per week is, times two, will be my target `t`.
+We dont want to run out, period. As not-a-risk taker, and someone who occasionally throws parties, I want at least _twice as much_ TP around as I normally need. Let's then say whatever my biggest usage per week is, times two, will be my target `t`.
 
 ## Minimizing Error
 
@@ -107,4 +107,77 @@ If you dont start exactly when your buying, every week that passes before you bu
 
 ```python
 start_of_month_availability = incoming_availability - used_before_first_order
+```
+
+## Example
+
+As an example, with the data above, you can compute the purchase amounts. In this case let's assume the incoming_availability is `12` and our target is twice the biggest week's usage: `22`, it looks like this:
+
+![center-aligned-image](demand_graph.png){: .align-center}
+
+```
+purchase: 19
+current available: 31
+current available: 27
+current available: 24
+current available: 22
+purchase: 12
+current available: 30
+current available: 27
+current available: 24
+current available: 22
+purchase: 15
+current available: 33
+current available: 30
+current available: 25
+current available: 22
+purchase: 14
+current available: 34
+current available: 30
+current available: 25
+current available: 22
+current available: 19
+purchase: 15
+current available: 32
+current available: 28
+current available: 25
+current available: 22
+purchase: 15
+current available: 35
+current available: 29
+current available: 25
+current available: 22
+purchase: 16
+current available: 35
+current available: 33
+current available: 26
+current available: 22
+current available: 19
+purchase: 16
+current available: 32
+current available: 28
+current available: 26
+current available: 22
+purchase: 14
+current available: 33
+current available: 30
+current available: 24
+current available: 22
+current available: 18
+purchase: 23
+current available: 38
+current available: 35
+current available: 33
+current available: 22
+purchase: 16
+current available: 36
+current available: 32
+current available: 29
+current available: 22
+purchase: 12
+current available: 31
+current available: 29
+current available: 25
+current available: 22
+current available: 19
 ```
