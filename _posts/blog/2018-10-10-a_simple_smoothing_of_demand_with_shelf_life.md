@@ -78,7 +78,7 @@ Now we need to send each of these little lists into the median calculator:
 ```python
 partial_sum = lambda a, b: a + [a[-1] + b]
 
-def take_median_or_upper_bound_of_integers(list_of_ints):
+def take_median_or_upper_bound_of_partial_sums(list_of_ints):
   return reduce(
     partial_sum,
     list_of_ints[1:],
@@ -92,7 +92,7 @@ And then we can just run through our weekly usage in blocks of months:
 monthly_purchases, start_of_month_availability = [], incoming_availability
 for month in weekly_usage:
   necessary = max(
-    take_median_or_upper_bound_of_integers(month) -
+    take_median_or_upper_bound_of_partial_sums(month) -
     start_of_month_availability +
     (target or 0),
     0
@@ -103,7 +103,7 @@ for month in weekly_usage:
 
 ### A gotcha
 
-If you dont start exactly when your buying, every week that passes before you buy needs to be subtracted from the start_of_month_availability to start with:
+If you dont start exactly when you're buying, every week that passes before you buy needs to be subtracted from the start_of_month_availability to start with:
 
 ```python
 start_of_month_availability = incoming_availability - used_before_first_order
