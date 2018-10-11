@@ -38,7 +38,7 @@ For `i`, `1 ≤ i ≤ 5` the numbered weeks in the month, and `u_i` the correspo
 
 We wish to minimize
 
-\\[\argmin_x\left(\sum_i\left(\left\mid x+o-\sum^i_j u_j -t \right\mid\right)\right)\\]
+\\[\argmin_x\left(\sum_i\left(\mid x+o-\sum^i_j u_j -t \mid\right)\right)\\]
 
 This feels like something that should be somewhat easy to minimize, and to a certain extent it is. It relies on a little lemma though:
 
@@ -46,11 +46,11 @@ This feels like something that should be somewhat easy to minimize, and to a cer
 
 For a set of numbers `S`, and a value `Y`
 
-\\[\argmin_{s \in S}\left(\sum_i\left(\left\mid S - Y \right\mid\right)\right) = median\left(S\right)\\]
+\\[\argmin_{s \in S}\left(\sum_i\left(\mid S - Y \mid\right)\right) = median\left(S\right)\\]
 
-So let `Y= x+o-t`, and consider instead, the partial sums `U_i = \sum^i_j u_j`, then
+So let `Y= x+o-t`, and consider instead, the partial sums \\(U_i = \sum^i_j u_j\\), then
 
-\\[\argmin_x\left(\sum_i\left(\left\mid x+o-\sum^i_j u_j -t \right\mid\right)\right) = \argmin_{U_i}\left(\sum_i\left(\left\mid U_i - Y \right\mid\right)\right) = median\left(U_i\right)\\]
+\\[\argmin_x\left(\sum_i\left(\mid x+o-\sum^i_j u_j -t \mid\right)\right) = \argmin_{U_i}\left(\sum_i\left(\mid U_i - Y \mid\right)\right) = median\left(U_i\right)\\]
 
 ## Ap-PLY-ing our algorithm
 
