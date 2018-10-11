@@ -1,6 +1,6 @@
 ---
  layout: post
- title: "A_simple_smoothing_of_demand_with_shelf_life"
+ title: "Simple smoothing of demand with shelf life"
  modified:
  categories: blog
  excerpt:
@@ -38,7 +38,7 @@ For `i`, `1 ≤ i ≤ 5` the numbered weeks in the month, and `u_i` the correspo
 
 We wish to minimize
 
-\[\argmin_x(\sum(\mid x+o-\sum^i_j u_j -t \mid))\]
+\\[\argmin_x(\sum(\mid x+o-\sum^i_j u_j -t \mid))\\]
 
 This feels like something that should be somewhat easy to minimize, and to a certain extent it is. It relies on a little lemma though:
 
@@ -46,11 +46,11 @@ This feels like something that should be somewhat easy to minimize, and to a cer
 
 For a set of numbers `S`, and a value `Y`
 
-\[\argmin_(s \in S)(\sum(\mid S - Y \mid)) = median(S)\]
+\\[\argmin_(s \in S)(\sum(\mid S - Y \mid)) = median(S)\\]
 
 So let `Y= x+o-t`, and consider instead, the partial sums `U_i = \sum^i_j u_j`, then
 
-\[\argmin_x(\sum(\mid x+o-\sum^i_j u_j -t \mid)) = \argmin_(U_i)(\sum(\mid U_i - Y \mid)) = median(U_i)\]
+\\[\argmin_x(\sum(\mid x+o-\sum^i_j u_j -t \mid)) = \argmin_(U_i)(\sum(\mid U_i - Y \mid)) = median(U_i)\\]
 
 ## Ap-PLY-ing our algorithm
 
