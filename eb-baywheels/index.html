@@ -7,7 +7,7 @@
   <title>eb baywheels</title>
   <link rel="preconnect" href="https://tile.openstreetmap.org">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <main>
@@ -44,6 +44,7 @@
       </div>
 
       <div class="bottom-actions">
+        <button id="backButton" class="icon-button light" aria-label="Undo last dock" disabled>←</button>
         <button id="settingsButton" class="icon-button light" aria-label="Route settings">•••</button>
         <button id="rideButton" class="ride-button" disabled>Loading…</button>
       </div>
@@ -65,6 +66,7 @@
     <form method="dialog" class="dialog-card compact">
       <div class="dialog-heading"><h2>Ride history</h2><button class="close-button" value="cancel">×</button></div>
       <div id="historySummary" class="history-summary"></div>
+      <button id="pauseButton" type="button" class="secondary-button neutral">Pause ride</button>
       <button id="resetButton" type="button" class="secondary-button">Reset ride</button>
     </form>
   </dialog>
@@ -78,6 +80,6 @@
   </dialog>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="app.js"></script>
+  <script type="module" src="app.js?v=2"></script>
 </body>
 </html>

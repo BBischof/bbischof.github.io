@@ -71,7 +71,10 @@ function render(center=false) {
   $("classic").textContent = status ? Math.max(0, status.num_bikes_available - (status.num_ebikes_available || 0)) : "—";
   $("docks").textContent = status?.num_docks_available ?? "—";
   $("rideButton").disabled = false;
-  $("rideButton").textContent = !state.startedAt && !state.elapsedMs ? "Start ride" : state.index === stations.length-1 ? "Finish ride" : "Log dock & next";
+  $("rideButton").textContent = state.paused && state.elapsedMs ? "Resume ride" : !state.startedAt && !state.elapsedMs ? "Start ride" : state.index === stations.length-1 ? "Finish ride" : "Log dock & next";
+  $("backButton").disabled = state.index === 0;
+  $("pauseButton").disabled = !state.startedAt && !state.elapsedMs;
+  $("pauseButton").textContent = state.paused ? "Resume ride" : "Pause ride";
   markers.forEach((m,i)=>{ m.setIcon(markerIcon(i)); m.setZIndexOffset(i===state.index?1000:0); });
   const activeCoordinates = leg?.coordinates || (hasNext ? [[s.lat,s.lon],[next.lat,next.lon]] : [[s.lat,s.lon]]);
   activeLine.setLatLngs(activeCoordinates);
@@ -96,11 +99,37 @@ function toggleMapFocus() {
 }
 
 function completeDock() {
+  if (state.paused && state.elapsedMs) { resumeRide(); return; }
   if (!state.startedAt && !state.elapsedMs) state.startedAt = Date.now();
   if (!state.visited.includes(state.index)) state.visited.push(state.index);
   if (state.index < stations.length-1) state.index++;
   else { state.elapsedMs = elapsed(); state.startedAt = null; state.paused = true; }
   save(); render(true);
+}
+
+function undoLastDock() {
+  if (state.index === 0) return;
+  const previousIndex = state.index - 1;
+  state.index = previousIndex;
+  state.visited = state.visited.filter(index => index !== previousIndex);
+  save();
+  showingOverview = false;
+  render(true);
+}
+
+function pauseRide() {
+  if (!state.startedAt && !state.elapsedMs) return;
+  if (state.paused) { resumeRide(); return; }
+  state.elapsedMs = elapsed();
+  state.startedAt = null;
+  state.paused = true;
+  save(); render(false);
+}
+
+function resumeRide() {
+  state.startedAt = Date.now();
+  state.paused = false;
+  save(); render(false);
 }
 
 async function refreshStatus() {
@@ -141,9 +170,11 @@ function bindEvents() {
   $("stationPicker").onclick=()=>{ renderList(); $("stationDialog").showModal(); setTimeout(()=>$("stationSearch").focus(),50); };
   $("stationSearch").oninput=e=>renderList(e.target.value);
   $("rideButton").onclick=completeDock;
+  $("backButton").onclick=undoLastDock;
   $("locateButton").onclick=toggleLocation;
   $("historyButton").onclick=()=>$("historyDialog").showModal();
   $("settingsButton").onclick=()=>$("settingsDialog").showModal();
+  $("pauseButton").onclick=pauseRide;
   $("sheetHandle").onclick=toggleMapFocus;
   $("showRoute").onchange=e=>e.target.checked?routeLine.addTo(map):routeLine.remove();
   $("resetButton").onclick=()=>{ Object.assign(state,{index:0,visited:[],startedAt:null,elapsedMs:0,paused:false}); save(); $("historyDialog").close(); render(true); };
