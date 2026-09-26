@@ -1,0 +1,1337 @@
+{
+  "name": "eb baywheels",
+  "generatedFrom": "station-matching/station_information.json",
+  "sourceUpdated": 1789940118,
+  "routeMethod": "north-to-south nearest-neighbor + open 2-opt",
+  "distanceKm": 85.03,
+  "stations": [
+    {
+      "id": "2207524862234330434",
+      "name": "Josephine St at Sonoma Ave",
+      "lat": 37.88534088973987,
+      "lon": -122.27564258953747,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "618c724d-9025-470b-8621-4500a9b69773",
+      "name": "Vine St at Shattuck Ave",
+      "lat": 37.88022244590679,
+      "lon": -122.26959228515624,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "5d2b4506-3169-4f9a-af15-31c78768917a",
+      "name": "Virginia St at Shattuck Ave",
+      "lat": 37.876572549106854,
+      "lon": -122.26952791213989,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "c8b190cd-c4a1-4597-bb18-3d9cc786e9cb",
+      "name": "Euclid Ave at Hearst Ave",
+      "lat": 37.8753207,
+      "lon": -122.2601554,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "2207526600977425746",
+      "name": "Hearst Ave at Gayley Rd",
+      "lat": 37.875411,
+      "lon": -122.25728,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "a646ab7e-7396-4009-abb8-0b51171325ff",
+      "name": "Bancroft Way at College Ave",
+      "lat": 37.869394312305865,
+      "lon": -122.25433029666107,
+      "region": "Berkeley",
+      "capacity": 30
+    },
+    {
+      "id": "bd5a77f6-ebbe-496b-9887-069c87c7a423",
+      "name": "Haste St at College Ave",
+      "lat": 37.8665209865504,
+      "lon": -122.2538440662579,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "2207527442247873704",
+      "name": "Clark Kerr Campus",
+      "lat": 37.86463143267623,
+      "lon": -122.25028388889903,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "a4ea165b-5dcf-4b41-ac2d-68718f98b147",
+      "name": "Derby St at College Ave",
+      "lat": 37.86175955253551,
+      "lon": -122.25367726566597,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "f33b866f-ce2e-4d48-9b2a-cf566ba59039",
+      "name": "Russell St at College Ave",
+      "lat": 37.8584732,
+      "lon": -122.2532529,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "f1987d85-0da3-4a03-b947-8c6c72947f32",
+      "name": "Telegraph Ave at Carleton St",
+      "lat": 37.8623199,
+      "lon": -122.258801,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "318b8d9d-cf10-41a5-988a-860a07f0543d",
+      "name": "Haste St at Telegraph Ave",
+      "lat": 37.86605793797572,
+      "lon": -122.25883711768391,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "874b7cea-2d90-4978-bc49-b9a38b597f81",
+      "name": "Bancroft Way at Telegraph Ave",
+      "lat": 37.8689109,
+      "lon": -122.2587857,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "a4176220-2f51-47dd-82c4-342dc97867bd",
+      "name": "Fulton St at Bancroft Way",
+      "lat": 37.868135281599706,
+      "lon": -122.26593686946156,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "7adb5dde-e34a-4964-98d3-f64a940beacb",
+      "name": "Downtown Berkeley BART",
+      "lat": 37.87020627268973,
+      "lon": -122.26861283719309,
+      "region": "Berkeley",
+      "capacity": 29
+    },
+    {
+      "id": "3494fb75-e57c-491f-a6e7-c2440c3a37e3",
+      "name": "Berkeley Way at Walnut St",
+      "lat": 37.873322,
+      "lon": -122.267006,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "b43472b6-2dfc-451e-a668-abc1a1099b6e",
+      "name": "Shattuck Ave at Hearst Ave",
+      "lat": 37.87367621459825,
+      "lon": -122.26848721504211,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "3d923c3c-46ea-4a46-84b7-e95916cdb0bd",
+      "name": "MLK Jr Way at University Ave",
+      "lat": 37.8717192,
+      "lon": -122.2730677,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "99665404-d98e-472c-9f68-0016be3601db",
+      "name": "Berkeley Civic Center",
+      "lat": 37.8690599,
+      "lon": -122.270556,
+      "region": "Berkeley",
+      "capacity": 27
+    },
+    {
+      "id": "76709a87-13a8-4df3-a971-073c79fcf6b0",
+      "name": "Channing Way at Shattuck Ave",
+      "lat": 37.8658466,
+      "lon": -122.2674431,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "70cd5518-091f-4331-a80e-53df97db1a81",
+      "name": "Parker St at Fulton St",
+      "lat": 37.8624644,
+      "lon": -122.2647911,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "713e3a3a-c5a6-4f48-a122-c536326bc954",
+      "name": "Milvia St at Derby St",
+      "lat": 37.86012459911685,
+      "lon": -122.2693844139576,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "ef04d469-63f4-464a-946f-056da6318051",
+      "name": "Oregon St at Adeline St",
+      "lat": 37.8575672,
+      "lon": -122.2675583,
+      "region": "Berkeley",
+      "capacity": 20
+    },
+    {
+      "id": "4d1990b2-f487-43be-b436-018ad73ab0dd",
+      "name": "Fulton St at Ashby Ave",
+      "lat": 37.855573661828785,
+      "lon": -122.26356536149979,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "429a3ffa-e0df-4497-b6e9-91e3ccb12c1c",
+      "name": "Ellsworth St at Russell St",
+      "lat": 37.85760774739988,
+      "lon": -122.26160466670989,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "f630e61e-56b0-4f69-a91b-2e85b44dfcb7",
+      "name": "Telegraph Ave at Ashby Ave",
+      "lat": 37.8559558,
+      "lon": -122.2597949,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "790da352-5aaa-4bb9-8453-e8ec2f78c038",
+      "name": "Telegraph Ave at Alcatraz Ave",
+      "lat": 37.85022187449679,
+      "lon": -122.26017236709595,
+      "region": "Oakland / Alameda",
+      "capacity": 11
+    },
+    {
+      "id": "76d7eeec-413a-4940-9bc2-8222d35f8fdc",
+      "name": "College Ave at Alcatraz Ave",
+      "lat": 37.8513755,
+      "lon": -122.2525233,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "b4717e68-fb91-4e74-819f-4a9580a84ca5",
+      "name": "62nd St at Claremont Ave",
+      "lat": 37.8494355,
+      "lon": -122.2525406,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "31146111-fc8f-4107-9087-1a160eefaa54",
+      "name": "Rockridge BART",
+      "lat": 37.84411339054377,
+      "lon": -122.25185197653646,
+      "region": "Oakland / Alameda",
+      "capacity": 24
+    },
+    {
+      "id": "5f13426c-73f2-4272-a498-f11ff007e8d3",
+      "name": "College Ave at Taft Ave",
+      "lat": 37.8417999,
+      "lon": -122.2515349,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "b31a7464-fb7f-4554-a89b-ef8b4c97a367",
+      "name": "College Ave at Bryant Ave",
+      "lat": 37.8381269,
+      "lon": -122.2512714,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "67ed16db-4800-4671-bba4-e8ef52d6d74e",
+      "name": "Broadway at Coronado Ave",
+      "lat": 37.8357883,
+      "lon": -122.2516207,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "42019e90-fa74-4a77-9051-5dfed81a32de",
+      "name": "45th St at Manila",
+      "lat": 37.8332935222321,
+      "lon": -122.25622415542603,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2137004309716253358",
+      "name": "Webster St at 40th St",
+      "lat": 37.82876385742399,
+      "lon": -122.26075912464111,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "76d741e6-6b22-4d6a-a16f-8dbd7ab51c6f",
+      "name": "Broadway at 40th St",
+      "lat": 37.8277573,
+      "lon": -122.2567156,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "77948e35-f1c6-4ff9-9d8c-787a16b20a27",
+      "name": "40th St at Piedmont Ave",
+      "lat": 37.825785004382006,
+      "lon": -122.25346968515623,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "2092455535832312750",
+      "name": "Piedmont Ave at MacArthur Blvd",
+      "lat": 37.823143222649385,
+      "lon": -122.2569505732544,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "4298a24b-394a-491d-9d8f-df90f381b187",
+      "name": "Mosswood Park",
+      "lat": 37.824892529951114,
+      "lon": -122.26043654610294,
+      "region": "Oakland / Alameda",
+      "capacity": 31
+    },
+    {
+      "id": "f3db9065-9d34-451e-ae8e-930612f8b8d7",
+      "name": "MacArthur Blvd at Telegraph Ave",
+      "lat": 37.8262863,
+      "lon": -122.2651002,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "1af8102a-589a-47ea-97ec-4589b71403aa",
+      "name": "MacArthur BART",
+      "lat": 37.8285951,
+      "lon": -122.2663493,
+      "region": "Oakland / Alameda",
+      "capacity": 31
+    },
+    {
+      "id": "b6e253b2-285d-4363-ae46-24e7c221cc08",
+      "name": "West St at 40th St",
+      "lat": 37.8302232,
+      "lon": -122.2709501,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "bde0daf3-435d-4e6a-a477-ec9a4b4c17f7",
+      "name": "Market St at 45th St",
+      "lat": 37.834174,
+      "lon": -122.272968,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "1dedc5ae-882d-4bb0-bcfe-33604cc116df",
+      "name": "45th St at MLK Jr Way",
+      "lat": 37.8335577,
+      "lon": -122.2674183,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "c3f56bed-65e3-425b-999e-82b3a4f73aeb",
+      "name": "Shattuck Ave at Telegraph Ave",
+      "lat": 37.833538871616035,
+      "lon": -122.263693665756,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "971307f6-5491-4112-beac-6b6960af6c0d",
+      "name": "Telegraph Ave at 49th St",
+      "lat": 37.835879943416465,
+      "lon": -122.26275109198659,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "dcf29fa9-3304-4f6f-90eb-ef48ada9dbfe",
+      "name": "52nd St at MLK Jr Way",
+      "lat": 37.837369,
+      "lon": -122.267656,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "a247eef9-7ee3-4827-8ddb-fbd8daca7a0b",
+      "name": "Genoa St at 55th St",
+      "lat": 37.8396488,
+      "lon": -122.2717561,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "9cb2f8b5-0d32-4a15-a4f1-3990595156de",
+      "name": "Dover St at 57th St",
+      "lat": 37.8426295,
+      "lon": -122.267738,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "cd4b4099-e2f5-4d46-bc1f-ed96d22548cc",
+      "name": "Shattuck Ave at 55th St",
+      "lat": 37.8403643,
+      "lon": -122.2644881,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "bf463e48-e629-4fed-9e7e-551e5c5a1af7",
+      "name": "55th St at Telegraph Ave",
+      "lat": 37.8401858,
+      "lon": -122.2618225,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "ffbf423a-2c1b-447a-a47d-9c1fddd152be",
+      "name": "Miles Ave at Cavour St",
+      "lat": 37.8388,
+      "lon": -122.258732,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "50518b51-6910-4f71-bb20-7b0d0fc4f4b7",
+      "name": "Telegraph Ave at 58th St",
+      "lat": 37.8444927,
+      "lon": -122.261351,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "48e675de-7b94-49ff-bb5e-fa146c243599",
+      "name": "Bushrod Park",
+      "lat": 37.8465156,
+      "lon": -122.2653043,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "04059da9-ebad-42e8-928b-14e5e3edf26f",
+      "name": "Alcatraz Ave at Shattuck Ave",
+      "lat": 37.849594967776646,
+      "lon": -122.26556897163393,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "fd89514c-f878-4cd5-8113-8e5beead44de",
+      "name": "Harmon St at Adeline St",
+      "lat": 37.849735,
+      "lon": -122.270582,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "25e8f173-3c6f-43d5-9806-af1c72f6f3d8",
+      "name": "Ashby BART",
+      "lat": 37.8524766,
+      "lon": -122.2702132,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "2207525527954261324",
+      "name": "Grove Park",
+      "lat": 37.85606709414384,
+      "lon": -122.27277867023605,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "6b38a901-f4ae-4aef-b958-3b6efe69e9d6",
+      "name": "Woolsey St at Sacramento St",
+      "lat": 37.8505777,
+      "lon": -122.2781754,
+      "region": "Berkeley",
+      "capacity": 14
+    },
+    {
+      "id": "2115871653062126470",
+      "name": "Lowell St at Stanford Ave",
+      "lat": 37.843252684675356,
+      "lon": -122.2769811964533,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2115870347392068466",
+      "name": "65th St at San Pablo Ave",
+      "lat": 37.84814590831065,
+      "lon": -122.2851545595561,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "4a6b5ab4-b2d8-4657-b93f-a71bc7007283",
+      "name": "San Pablo Park",
+      "lat": 37.85578332030199,
+      "lon": -122.28312671184538,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "2239030482140352648",
+      "name": "California St at Dwight Way",
+      "lat": 37.86233787694118,
+      "lon": -122.27861835130548,
+      "region": "Berkeley",
+      "capacity": 13
+    },
+    {
+      "id": "f82dccaa-6309-4a54-a405-fe94412f71d6",
+      "name": "Addison St at California St",
+      "lat": 37.86972662872833,
+      "lon": -122.27938914547282,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "930e63db-726c-4276-b3c3-fc51f32b3ddd",
+      "name": "North Berkeley BART",
+      "lat": 37.8738556998122,
+      "lon": -122.28298832384976,
+      "region": "Berkeley",
+      "capacity": 31
+    },
+    {
+      "id": "2207522012723670392",
+      "name": "Curtis St at Gilman St",
+      "lat": 37.881231,
+      "lon": -122.290045,
+      "region": "Berkeley",
+      "capacity": 13
+    },
+    {
+      "id": "2207520553663472890",
+      "name": "Tenth St at Gilman St",
+      "lat": 37.88086,
+      "lon": -122.29723,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "2207165879735501198",
+      "name": "Tom Bates Sports Complex",
+      "lat": 37.877771,
+      "lon": -122.308903,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "2207169922458800964",
+      "name": "Berkeley Marina",
+      "lat": 37.864576,
+      "lon": -122.312303,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "d1e31ce1-f129-48e0-bfe9-ba2674ed2daa",
+      "name": "Addison St at Fourth St",
+      "lat": 37.866249,
+      "lon": -122.2993708,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "08f875e7-d696-4a4d-9656-43f07a953de4",
+      "name": "Fifth St at Delaware St",
+      "lat": 37.870407115465376,
+      "lon": -122.29967594146727,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "2207522891867018436",
+      "name": "James Kenney Park",
+      "lat": 37.872682,
+      "lon": -122.297148,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "72266876-876c-41a9-a1d7-c4b4306b42c3",
+      "name": "10th St at University Ave",
+      "lat": 37.869068584123774,
+      "lon": -122.2934198434296,
+      "region": "Berkeley",
+      "capacity": 19
+    },
+    {
+      "id": "0b81b2ae-d9bf-4b66-b5e0-687205d4bc12",
+      "name": "West St at University Ave",
+      "lat": 37.869966707604036,
+      "lon": -122.28653311729431,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "2207523653401177472",
+      "name": "Strawberry Creek Park",
+      "lat": 37.865241,
+      "lon": -122.286323,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "40205ede-0c43-44ab-8c9c-0d8ecd9f854e",
+      "name": "Channing Way at San Pablo Ave",
+      "lat": 37.86281710670802,
+      "lon": -122.2902952903697,
+      "region": "Berkeley",
+      "capacity": 23
+    },
+    {
+      "id": "3845994c-9953-44ce-b75b-43d4cb5216e8",
+      "name": "Ninth St at Parker St",
+      "lat": 37.8588682,
+      "lon": -122.2912095,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "7cec0a12-76ab-4472-b38c-8e8ad02688a5",
+      "name": "Ninth St at Heinz Ave",
+      "lat": 37.85299776297823,
+      "lon": -122.28944645338662,
+      "region": "Berkeley",
+      "capacity": 15
+    },
+    {
+      "id": "2142620647059377042",
+      "name": "Vallejo St at 66th St",
+      "lat": 37.84835596348644,
+      "lon": -122.2886089419628,
+      "region": "Emeryville",
+      "capacity": 23
+    },
+    {
+      "id": "83f44c93-d153-49b3-a8af-a6b4a7ea85db",
+      "name": "65th St at Hollis St",
+      "lat": 37.8467842,
+      "lon": -122.2913761,
+      "region": "Emeryville",
+      "capacity": 19
+    },
+    {
+      "id": "4fea6876-e80d-4a29-9966-820ac15cd3b4",
+      "name": "Doyle St at 59th St",
+      "lat": 37.8419238,
+      "lon": -122.2880451,
+      "region": "Emeryville",
+      "capacity": 15
+    },
+    {
+      "id": "1eef0966-a6b6-4da1-8726-09989c2eb044",
+      "name": "47th St at San Pablo Ave",
+      "lat": 37.8356703,
+      "lon": -122.2811258,
+      "region": "Emeryville",
+      "capacity": 19
+    },
+    {
+      "id": "31871354-8b20-4566-9044-f70ac57026dc",
+      "name": "53rd St at Hollis St",
+      "lat": 37.8361823,
+      "lon": -122.2871801,
+      "region": "Emeryville",
+      "capacity": 23
+    },
+    {
+      "id": "9da2121d-d8a8-464d-a396-cd41c9487bc4",
+      "name": "Stanford Ave at Hollis St",
+      "lat": 37.8384435,
+      "lon": -122.2886647,
+      "region": "Emeryville",
+      "capacity": 15
+    },
+    {
+      "id": "5ea1329c-9fe6-4c24-9de7-34967a9fa428",
+      "name": "59th St at Horton St",
+      "lat": 37.8409452,
+      "lon": -122.2913604,
+      "region": "Emeryville",
+      "capacity": 19
+    },
+    {
+      "id": "998afb43-2436-4f11-9ed1-380c9abc3e55",
+      "name": "Emeryville Public Market",
+      "lat": 37.84052116694969,
+      "lon": -122.29352831840515,
+      "region": "Emeryville",
+      "capacity": 19
+    },
+    {
+      "id": "e5741f79-1c88-4f19-8f34-59b4ab198375",
+      "name": "2100 Powell St",
+      "lat": 37.83954308266563,
+      "lon": -122.2987177222967,
+      "region": "Emeryville",
+      "capacity": 23
+    },
+    {
+      "id": "2142619474061504532",
+      "name": "Powell St at Commodore Dr",
+      "lat": 37.837025,
+      "lon": -122.304826,
+      "region": "Emeryville",
+      "capacity": 23
+    },
+    {
+      "id": "1962926259660134428",
+      "name": "Bay Street Plaza",
+      "lat": 37.834574108061645,
+      "lon": -122.29206176011056,
+      "region": "Emeryville",
+      "capacity": 21
+    },
+    {
+      "id": "2142621647923386628",
+      "name": "Huchiun Park",
+      "lat": 37.83159410797172,
+      "lon": -122.2903389768136,
+      "region": "Emeryville",
+      "capacity": 13
+    },
+    {
+      "id": "8f409200-2adf-4b2d-b675-6befa5adc6e3",
+      "name": "Horton St at 40th St",
+      "lat": 37.8297046,
+      "lon": -122.2876102,
+      "region": "Emeryville",
+      "capacity": 23
+    },
+    {
+      "id": "47f5b0d6-a2db-482c-9680-10759094c4a4",
+      "name": "Emeryville Town Hall",
+      "lat": 37.83119098371166,
+      "lon": -122.28562837297486,
+      "region": "Emeryville",
+      "capacity": 23
+    },
+    {
+      "id": "789f4684-fb14-456b-ad02-87ee28d80ff1",
+      "name": "Adeline St at 40th St",
+      "lat": 37.8312769,
+      "lon": -122.2782669,
+      "region": "Emeryville",
+      "capacity": 15
+    },
+    {
+      "id": "316f6785-47aa-4e37-b81b-3cf829bf5120",
+      "name": "Market St at 40th St",
+      "lat": 37.8305452,
+      "lon": -122.2739367,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "df2bc9c0-0377-46c8-83ea-ef7ef9dcdb4d",
+      "name": "32nd St at Adeline St",
+      "lat": 37.8238474,
+      "lon": -122.2811926,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "f665c653-569b-4a5d-b80d-67f2e4191f77",
+      "name": "Brockhurst St at San Pablo Ave",
+      "lat": 37.82352279021405,
+      "lon": -122.27718830108643,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "3e870ef6-b3ee-4e56-9d22-156fdb2f8155",
+      "name": "West St at Brockhurst St",
+      "lat": 37.82268385945021,
+      "lon": -122.27292420364392,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "73295cf1-c5e1-41dd-8cd7-eab6512e8a34",
+      "name": "37th St at West St",
+      "lat": 37.82669558640968,
+      "lon": -122.27179706096648,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "b0f5f6bc-86db-4670-be8d-4112719fbd71",
+      "name": "34th St at Telegraph Ave",
+      "lat": 37.82246767714513,
+      "lon": -122.26597130298616,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "b96ee0c1-a83b-4f0c-9eae-4592672b3e86",
+      "name": "Broadway at 30th St",
+      "lat": 37.8193814,
+      "lon": -122.2619284,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "a0b6621e-016f-4a91-918c-2140bfd9813c",
+      "name": "Telegraph Ave at 27th St",
+      "lat": 37.816073115011406,
+      "lon": -122.26788640022278,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "10334650-998e-4022-a883-2c3110edeb40",
+      "name": "MLK Jr Way at 27th St",
+      "lat": 37.817350256930574,
+      "lon": -122.27147850614034,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "74e8630e-7e2a-447f-ae87-5c9898c7346a",
+      "name": "23rd St at Telegraph Ave",
+      "lat": 37.81258108581741,
+      "lon": -122.26857304573059,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "6977a0c8-f59f-4d97-9868-e7b20cc2fdad",
+      "name": "19th Street BART",
+      "lat": 37.809368612134854,
+      "lon": -122.26795077323914,
+      "region": "Oakland / Alameda",
+      "capacity": 31
+    },
+    {
+      "id": "f1ee54eb-4abe-4158-9c82-53bcc640fc77",
+      "name": "Telegraph Ave at 19th St",
+      "lat": 37.8087021,
+      "lon": -122.2699271,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "924ea8a9-841d-43b5-99a9-bff7ca8d4b64",
+      "name": "San Pablo Ave at MLK Jr Way",
+      "lat": 37.8113514,
+      "lon": -122.2734217,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "e9b45d4b-900e-4d9f-bb75-74dcea012859",
+      "name": "Isabella St at San Pablo Ave",
+      "lat": 37.814988230424156,
+      "lon": -122.27484405040741,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "8a7e7744-c516-46b9-b079-2a6d3afc2383",
+      "name": "27th St at San Pablo Ave",
+      "lat": 37.8178861054494,
+      "lon": -122.27595852149544,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "92045ce2-112c-4cd9-ae42-39aac4f43e86",
+      "name": "Market St at 24th St",
+      "lat": 37.8160598,
+      "lon": -122.2782444,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "1af8f901-8697-4128-b6c8-45c7c7f2c684",
+      "name": "DeFremery Park",
+      "lat": 37.8123315,
+      "lon": -122.2851712,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "2039028142476895072",
+      "name": "Mandela Parkway at W Grand Ave",
+      "lat": 37.81577852302503,
+      "lon": -122.28947399738061,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "1953261585830871522",
+      "name": "Raimondi Park",
+      "lat": 37.81493053721438,
+      "lon": -122.292953407218,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2092447556383093326",
+      "name": "Willow Park",
+      "lat": 37.81236254956572,
+      "lon": -122.29609629373002,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "a845426e-b1fe-4dab-b7a5-b6e581f4d7dc",
+      "name": "14th St at Mandela Pkwy",
+      "lat": 37.8107432,
+      "lon": -122.2914153,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "270425db-c369-4d4b-b8de-fae86c896a3c",
+      "name": "West Oakland BART",
+      "lat": 37.8051895,
+      "lon": -122.29461686454057,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "1771130117010765886",
+      "name": "10th St at Chestnut St",
+      "lat": 37.8063553,
+      "lon": -122.2860187,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "ac5e3053-b3f5-4396-9114-7650b67c7090",
+      "name": "14th St at Filbert St",
+      "lat": 37.80874983465997,
+      "lon": -122.28328227996825,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "77476eaf-b0a1-473b-8e68-9d6a312545b1",
+      "name": "Marston Campbell Park",
+      "lat": 37.8098236,
+      "lon": -122.2801923,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "e4921f52-7a6c-4baa-b057-ddc7051980ca",
+      "name": "Jefferson St at 14th St",
+      "lat": 37.805207,
+      "lon": -122.275156,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "9e3efff1-3d42-46fd-8206-4021277ba6c2",
+      "name": "Frank H Ogawa Plaza",
+      "lat": 37.8045623549303,
+      "lon": -122.27173805236816,
+      "region": "Oakland / Alameda",
+      "capacity": 35
+    },
+    {
+      "id": "10c593a0-39c8-45ec-bbf6-fd7fbdf30cb5",
+      "name": "Franklin St at 13th St",
+      "lat": 37.80303013575619,
+      "lon": -122.27049618959427,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "492edeb7-7c9f-4845-b5cc-442faedb3a56",
+      "name": "13th St at Webster St",
+      "lat": 37.802688402040665,
+      "lon": -122.26914636790752,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "09c20e68-4f8c-4723-ae8f-bac3dd927848",
+      "name": "Franklin St at 9th St",
+      "lat": 37.8005161,
+      "lon": -122.2720799,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "8f34c934-e51e-4b0f-810c-916618b6cd90",
+      "name": "Washington St at 8th St",
+      "lat": 37.8007544,
+      "lon": -122.2748943,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "759daccc-7f53-4b29-ab07-cf2d75a10610",
+      "name": "Jack London Square",
+      "lat": 37.796248,
+      "lon": -122.279352,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "7686b58c-88a3-4ca8-a898-d4bcccf520b3",
+      "name": "Webster St at 2nd St",
+      "lat": 37.795194764385954,
+      "lon": -122.27396965026855,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "2092455169869189358",
+      "name": "Second St at Oak St",
+      "lat": 37.792831459495915,
+      "lon": -122.26827767083098,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "2069128174168179002",
+      "name": "Brooklyn Basin",
+      "lat": 37.787440960713916,
+      "lon": -122.25555462691868,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "4c05cf62-fcee-4f55-960f-aeccd2b09735",
+      "name": "10th Ave at E 15th St",
+      "lat": 37.7927143,
+      "lon": -122.2487796,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "ddc82a89-0b7e-41a7-ba69-05e3776d13cf",
+      "name": "6th Ave at E 12th St",
+      "lat": 37.794396,
+      "lon": -122.253842,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "ddc41c7f-69d7-48a9-a992-d0c543fd6f5e",
+      "name": "4th Ave at E 12th St",
+      "lat": 37.795913,
+      "lon": -122.255547,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "2142980153387663364",
+      "name": "Lakeshore Ave",
+      "lat": 37.79889596098421,
+      "lon": -122.25869433497587,
+      "region": "Oakland / Alameda",
+      "capacity": 25
+    },
+    {
+      "id": "7018fb4d-6799-4a20-8ea4-739f789cd096",
+      "name": "10th St at Fallon St",
+      "lat": 37.7976728,
+      "lon": -122.2629973,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "ce264eb5-ebfe-4a03-8bd3-e319c32614ec",
+      "name": "Lake Merritt BART",
+      "lat": 37.7973195,
+      "lon": -122.2653199,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "2dbb5c93-f749-47b9-bcad-ce6c3b26ba35",
+      "name": "Jackson St at 11th St",
+      "lat": 37.80000163118878,
+      "lon": -122.26643800735472,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "b8398469-a2ba-4d86-8f5a-07f9883796bd",
+      "name": "Lakeside Dr at 14th St",
+      "lat": 37.8013189,
+      "lon": -122.2626418,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "8d63ada7-a461-44c8-999d-4a8a45117e90",
+      "name": "Madison St at 17th St",
+      "lat": 37.804036784023594,
+      "lon": -122.26240932941435,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "3e04af83-e5cb-4472-95b5-1fc9caefa6fb",
+      "name": "Webster St at 19th St",
+      "lat": 37.80696976095594,
+      "lon": -122.26658821105957,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "5fdc3d6d-e9c8-47cf-874e-d2f012cfb217",
+      "name": "Snow Park",
+      "lat": 37.80781318217903,
+      "lon": -122.26449608802795,
+      "region": "Oakland / Alameda",
+      "capacity": 31
+    },
+    {
+      "id": "cb84be53-d226-47fc-aa81-789c037361d4",
+      "name": "Grand Ave at Webster St",
+      "lat": 37.8113768,
+      "lon": -122.2651925,
+      "region": "Oakland / Alameda",
+      "capacity": 27
+    },
+    {
+      "id": "2092454487860292510",
+      "name": "26th St at Broadway",
+      "lat": 37.81482406413866,
+      "lon": -122.26424569694973,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "422ab254-5c2c-4a9c-9368-a49e8dab3ebf",
+      "name": "Bay Pl at Vernon St",
+      "lat": 37.81225021872637,
+      "lon": -122.2607185732995,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "d5eedd49-f998-4b8a-9d1a-22853da216aa",
+      "name": "Grand Ave at Perkins St",
+      "lat": 37.80889393398715,
+      "lon": -122.25646018981932,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "1c2e5680-719b-4674-9837-092c367594ba",
+      "name": "Grand Ave at Santa Clara Ave",
+      "lat": 37.8127441,
+      "lon": -122.2472152,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "717e6e13-e1b2-4c13-944d-823a556c1635",
+      "name": "Lakeshore Ave at Trestle Glen Rd",
+      "lat": 37.8110807,
+      "lon": -122.2432677,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "70b61cdb-7b5d-4455-84e4-9b9c697b6740",
+      "name": "El Embarcadero at Grand Ave",
+      "lat": 37.808715,
+      "lon": -122.2492512,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2115872905422813656",
+      "name": "Brooklyn Ave at Lakeshore Ave",
+      "lat": 37.80513288481057,
+      "lon": -122.25036793093619,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "7655722c-16c0-4996-9d92-4848ece2fc35",
+      "name": "2nd Ave at E 18th St",
+      "lat": 37.800213566969795,
+      "lon": -122.25381016731262,
+      "region": "Oakland / Alameda",
+      "capacity": 34
+    },
+    {
+      "id": "2115874355650814804",
+      "name": "E 18th St at 4th Ave",
+      "lat": 37.79920674125079,
+      "lon": -122.25129128429244,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "885754e6-88c9-46ed-9376-f1b035a71b54",
+      "name": "21st St at 5th Ave",
+      "lat": 37.800459411713945,
+      "lon": -122.24745869636536,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2115876786602304360",
+      "name": "11th Ave at 19th St",
+      "lat": 37.79456581381641,
+      "lon": -122.24442771710703,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2184568182162203508",
+      "name": "16th Ave at E 21st St",
+      "lat": 37.793449,
+      "lon": -122.239736,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "6064907e-3871-4b2c-829b-d01406cee6fb",
+      "name": "San Antonio Park",
+      "lat": 37.79013985185364,
+      "lon": -122.24237322807312,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "2137007208819178192",
+      "name": "E 21st St at 23rd Ave",
+      "lat": 37.78856066343691,
+      "lon": -122.2315811650537,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "6b89ea9f-180b-4954-8eab-6cfeb2b66027",
+      "name": "23rd Ave at Foothill Blvd",
+      "lat": 37.7851915,
+      "lon": -122.2343822,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "28925943-fddd-4f98-86ef-9f8dbd9bc62d",
+      "name": "26th Ave at International Blvd",
+      "lat": 37.781123,
+      "lon": -122.2329915,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "cf1d4581-61da-4ade-97d5-2f856cdb0aad",
+      "name": "Fruitvale BART",
+      "lat": 37.7756388,
+      "lon": -122.2252296,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "51c15f4f-80bb-4c55-9675-70c184bb4318",
+      "name": "Farnam St at Fruitvale Ave",
+      "lat": 37.778058,
+      "lon": -122.2254,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "ea88423e-8147-4d3e-a51f-22430d3d728c",
+      "name": "Foothill Blvd at Fruitvale Ave",
+      "lat": 37.7837569,
+      "lon": -122.2226033,
+      "region": "Oakland / Alameda",
+      "capacity": 15
+    },
+    {
+      "id": "2168485416668293162",
+      "name": "Lynde St at Fruitvale Ave",
+      "lat": 37.791142,
+      "lon": -122.219512,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2137006198899091688",
+      "name": "Fruitvale Ave at MacArthur Blvd",
+      "lat": 37.80062512497625,
+      "lon": -122.2161109214726,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "2161151171646652522",
+      "name": "MacArthur Blvd at Hopkins Pl",
+      "lat": 37.79856714075992,
+      "lon": -122.20808543953551,
+      "region": "Oakland / Alameda",
+      "capacity": 17
+    },
+    {
+      "id": "2168486451484285426",
+      "name": "Magee Ave at MacArthur Blvd",
+      "lat": 37.793446,
+      "lon": -122.199504,
+      "region": "Oakland / Alameda",
+      "capacity": 23
+    },
+    {
+      "id": "2186023252314424608",
+      "name": "Brookdale Ave at 35th Ave",
+      "lat": 37.788436,
+      "lon": -122.210008,
+      "region": "Oakland / Alameda",
+      "capacity": 18
+    },
+    {
+      "id": "9ac7060b-f5d5-4ae4-be01-2571b1419d3f",
+      "name": "Foothill Blvd at Harrington Ave",
+      "lat": 37.77993,
+      "lon": -122.2177284,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    },
+    {
+      "id": "0d6a9101-5b40-4fdf-9315-e494af1baf7b",
+      "name": "Bond St at High St",
+      "lat": 37.774152564302355,
+      "lon": -122.21239820122717,
+      "region": "Oakland / Alameda",
+      "capacity": 19
+    }
+  ]
+}

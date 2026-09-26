@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f4ef">
+  <title>eb baywheels</title>
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div id="map" aria-label="East Bay station route"></div>
+
+    <header class="topbar">
+      <button id="stationPicker" class="station-picker" aria-haspopup="dialog">
+        <span id="stationCount">— / —</span>
+        <strong id="stationName">Loading stations…</strong>
+        <span class="chevron">⌄</span>
+      </button>
+      <div class="top-actions">
+        <button id="locateButton" class="icon-button" aria-label="Follow my location" title="Follow my location">◎</button>
+        <button id="historyButton" class="timer-button" aria-label="Ride time and history">
+          <span id="timer">Ready to ride</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="bottom-sheet" aria-label="Current and next station">
+      <button id="sheetHandle" class="handle" aria-label="Show current and next station"></button>
+      <div class="trip-row">
+        <div>
+          <span class="eyebrow">NEXT STATION</span>
+          <h1 id="nextStation">—</h1>
+        </div>
+        <div id="distance" class="distance">—</div>
+      </div>
+
+      <div id="availability" class="availability" role="status" aria-label="Station availability">
+        <div><strong id="ebikes">—</strong><span>E-bikes</span></div>
+        <div><strong id="classic">—</strong><span>Classic</span></div>
+        <div><strong id="docks">—</strong><span>Docks</span></div>
+      </div>
+
+      <div class="bottom-actions">
+        <button id="settingsButton" class="icon-button light" aria-label="Route settings">•••</button>
+        <button id="rideButton" class="ride-button" disabled>Loading…</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="stationDialog">
+    <form method="dialog" class="dialog-card">
+      <div class="dialog-heading">
+        <div><span class="eyebrow">ROUTE</span><h2>Choose a station</h2></div>
+        <button class="close-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <input id="stationSearch" type="search" placeholder="Search 166 stations" autocomplete="off">
+      <ol id="stationList"></ol>
+    </form>
+  </dialog>
+
+  <dialog id="historyDialog">
+    <form method="dialog" class="dialog-card compact">
+      <div class="dialog-heading"><h2>Ride history</h2><button class="close-button" value="cancel">×</button></div>
+      <div id="historySummary" class="history-summary"></div>
+      <button id="resetButton" type="button" class="secondary-button">Reset ride</button>
+    </form>
+  </dialog>
+
+  <dialog id="settingsDialog">
+    <form method="dialog" class="dialog-card compact">
+      <div class="dialog-heading"><h2>Route settings</h2><button class="close-button" value="cancel">×</button></div>
+      <label class="setting"><span>Keep map centered on the next stop</span><input id="autoCenter" type="checkbox" checked></label>
+      <label class="setting"><span>Show the complete route</span><input id="showRoute" type="checkbox" checked></label>
+    </form>
+  </dialog>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
