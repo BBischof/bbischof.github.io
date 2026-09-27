@@ -2,6 +2,7 @@ const STATUS_URL = "https://gbfs.lyft.com/gbfs/2.3/bay/en/station_status.json";
 const ACTIVE_ROUTE_KEY = "eb-baywheels-active-route-v1";
 const ROUTES = {
   "east-bay": { stations:"stations.json", directions:"directions.json", label:"East Bay", progressKey:"eb-baywheels-progress-v1" },
+  "san-jose": { stations:"sj-stations.json", directions:"sj-directions.json", label:"San Jose", progressKey:"eb-baywheels-san-jose-progress-v1" },
   connections: { stations:"connections-stations.json", directions:"connections-directions.json", label:"Connections", progressKey:"eb-baywheels-connections-progress-v1" }
 };
 const routeId = ROUTES[localStorage.getItem(ACTIVE_ROUTE_KEY)] ? localStorage.getItem(ACTIVE_ROUTE_KEY) : "east-bay";

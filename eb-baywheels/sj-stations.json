@@ -1,0 +1,665 @@
+{
+  "name": "San Jose Bay Wheels",
+  "generatedFrom": "station-matching/station_information.json",
+  "sourceUpdated": 1789940118,
+  "routeMethod": "north-to-south nearest-neighbor + open 2-opt",
+  "distanceKm": 41.62,
+  "stations": [
+    {
+      "id": "3c12fd1d-c7fc-4570-8fa3-1449c096b818",
+      "name": "Mercado Way at Sierra Rd",
+      "lat": 37.37116216857754,
+      "lon": -121.88128166433005,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "2136670018923932496",
+      "name": "Berryessa BART",
+      "lat": 37.367203965330354,
+      "lon": -121.87391658002635,
+      "region": "San Jose",
+      "capacity": 11
+    },
+    {
+      "id": "6994e1e6-bb3c-4309-8207-52e6004a7302",
+      "name": "Newbury Park Dr at King Rd",
+      "lat": 37.3655356585599,
+      "lon": -121.86796635389327,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "93d95ded-d49e-43bc-b7fe-6ce556569088",
+      "name": "Lenfest Rd at Mabury Rd",
+      "lat": 37.36508806048156,
+      "lon": -121.87161205351002,
+      "region": "San Jose",
+      "capacity": 25
+    },
+    {
+      "id": "7d59176c-49dd-4b07-a5ab-bcc109974db3",
+      "name": "23rd St at Taylor St",
+      "lat": 37.3600013909666,
+      "lon": -121.87877833843231,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "30429aed-9a47-4fd9-87fa-0db835aa8265",
+      "name": "17th St at Santa Clara St",
+      "lat": 37.34398467798214,
+      "lon": -121.87438488006593,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "c53990d7-f965-40f4-b305-3435e1c95a71",
+      "name": "23rd St at Santa Clara St",
+      "lat": 37.346480293729044,
+      "lon": -121.86856960181206,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "59a78eb1-a501-4145-b21f-bc2397898905",
+      "name": "22nd St at William St",
+      "lat": 37.3398531,
+      "lon": -121.8636494,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "ea511b7f-eae4-4ee8-9bba-ee7445e5133a",
+      "name": "19th St at William St",
+      "lat": 37.338468014146,
+      "lon": -121.86652064323424,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "b6d76c7a-2082-430b-8403-da5db00becaf",
+      "name": "N 14th St at E Santa Clara St",
+      "lat": 37.3426625921454,
+      "lon": -121.87729239463806,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "218e755d-c0d3-4b33-8afc-b4b0e8ab3a41",
+      "name": "Saint James St at 9th St",
+      "lat": 37.343208488473465,
+      "lon": -121.88438951969147,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "0d48fc9e-6798-46f0-bbb6-67a168800e0b",
+      "name": "Julian St at 6th St",
+      "lat": 37.3429973,
+      "lon": -121.8888891,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "bd05ae96-7adc-422d-84ea-697cd3b73afc",
+      "name": "7th St at Empire St",
+      "lat": 37.347451833746476,
+      "lon": -121.8904921996516,
+      "region": "San Jose",
+      "capacity": 31
+    },
+    {
+      "id": "7c086aa7-c33f-47e5-ace9-74c40807c409",
+      "name": "10th St at Empire St",
+      "lat": 37.349426308788004,
+      "lon": -121.8876188993454,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "534d8e3d-3814-48c9-b25e-1d2b8205fcd9",
+      "name": "Backesto Park",
+      "lat": 37.35288682729121,
+      "lon": -121.88604980707169,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "d87d0852-6abb-428b-86dd-d470c64c8ff7",
+      "name": "Taylor St at 9th St",
+      "lat": 37.35306166133104,
+      "lon": -121.89193725585936,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "6200707a-ffec-4dde-b142-4df69780264f",
+      "name": "10th St at Mission St",
+      "lat": 37.355692651246365,
+      "lon": -121.89225107431412,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "c0f36b61-82e5-4f63-9a28-1fa11f0149c9",
+      "name": "Raymond Bernal Jr Memorial Park",
+      "lat": 37.356834352780886,
+      "lon": -121.89593575894831,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "ab8cc22e-0f34-4476-bf81-293cbbb2e69c",
+      "name": "Kerley Dr at Rosemary St",
+      "lat": 37.360854155253826,
+      "lon": -121.90683424472809,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "b8cadddb-5ca8-43ec-98f3-2276e036950b",
+      "name": "Gish Rd at 1st St",
+      "lat": 37.36186680025918,
+      "lon": -121.90931528806688,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "cfda2dee-2f6c-400d-a1a7-ba1b2bdc6aee",
+      "name": "Sonora Ave at 1st St",
+      "lat": 37.364060462258806,
+      "lon": -121.9117319583893,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "938f4dc0-e393-47e8-9449-3a82b2445662",
+      "name": "Skyport Dr at Technology Dr",
+      "lat": 37.36522655191025,
+      "lon": -121.9168147444725,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "e81efb0f-faee-43dd-b8e0-1e1f0cad61f1",
+      "name": "Metro Dr at Technology Dr",
+      "lat": 37.36767805240811,
+      "lon": -121.9187942147255,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "a96032c0-9ff2-4fbe-8f03-6b3f9816947d",
+      "name": "Asbury St at The Alameda",
+      "lat": 37.33802231313689,
+      "lon": -121.91947817802429,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "2c7560e6-62c6-4403-8b97-8016471948b5",
+      "name": "Julian St at The Alameda",
+      "lat": 37.3322326,
+      "lon": -121.9125165,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "45d77294-6643-4ba4-bd8b-2e8c27430dfe",
+      "name": "Park Ave at Race St",
+      "lat": 37.32601084794081,
+      "lon": -121.91232740879057,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "68c89d1f-407a-4550-a2b7-ecf0ad7ee422",
+      "name": "San Carlos St at Meridian Ave",
+      "lat": 37.3233446905968,
+      "lon": -121.91349685192107,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "2c00d99d-7518-4ecd-ab53-63e7a34034f6",
+      "name": "Parkmoor Ave at Race St",
+      "lat": 37.316736478493425,
+      "lon": -121.91000461578369,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "14750571-71a2-4c2f-8a6a-8f344866eebe",
+      "name": "Auzerais Ave at Lincoln Ave",
+      "lat": 37.32096853145443,
+      "lon": -121.90829604864119,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "46f36a3a-f550-4fe0-bfe8-b94fddaf95d8",
+      "name": "Auzerais Ave at Los Gatos Creek Trail",
+      "lat": 37.321181834267314,
+      "lon": -121.9030898809433,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "eb283c26-5d6b-4da4-a2ac-f0bfe3329856",
+      "name": "Columbia Ave at Bird Ave",
+      "lat": 37.324125951150876,
+      "lon": -121.89971968531609,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "e5b1f228-5347-47fc-a079-c1df0e8668f1",
+      "name": "Sunol St at San Carlos St",
+      "lat": 37.32345133870681,
+      "lon": -121.90597593784332,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "14f62ff9-1893-4379-8fe4-db578da909ee",
+      "name": "Park Ave at Laurel Grove Ln",
+      "lat": 37.326282324105776,
+      "lon": -121.9049111008644,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "28988488-fb74-4bbc-9e69-613698b2dd8c",
+      "name": "Cahill Park",
+      "lat": 37.32911866814779,
+      "lon": -121.90457582473755,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "dc2f7685-c3e3-4536-b78b-740479cbb207",
+      "name": "San Jose Diridon Station",
+      "lat": 37.329732,
+      "lon": -121.901782,
+      "region": "San Jose",
+      "capacity": 35
+    },
+    {
+      "id": "6bcc6da3-b25b-4fea-9c30-3eb88e282574",
+      "name": "Delmas Ave and San Fernando St",
+      "lat": 37.3302641,
+      "lon": -121.8977018,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "daac8a55-dd65-4a1e-b0b9-65ec5002c812",
+      "name": "SAP Center",
+      "lat": 37.332692,
+      "lon": -121.900084,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "d28bb0a7-8dc5-49be-86c7-9a3395eed019",
+      "name": "The Alameda at Bush St",
+      "lat": 37.3319323,
+      "lon": -121.9048882,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "27045384-791c-4519-8087-fce2f7c48a69",
+      "name": "N Morrison Ave at W Julian St",
+      "lat": 37.333677122859896,
+      "lon": -121.90861791372298,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "d75591d7-080d-46cb-8ada-0fbe6af676fc",
+      "name": "Stockton Ave at Lenzen Ave",
+      "lat": 37.33677476275722,
+      "lon": -121.90914899110793,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "3ebc4f3f-2941-47cd-a173-83f01a91bf57",
+      "name": "Autumn Parkway at Coleman Ave",
+      "lat": 37.3413348,
+      "lon": -121.9031829,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "6c176d42-fea5-4df1-80eb-66a99cc73a21",
+      "name": "George St at 1st St",
+      "lat": 37.34759257443888,
+      "lon": -121.89966201782227,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "393ec80c-da84-4d7a-9452-e77f8de7caf2",
+      "name": "San Pedro St at Hedding St",
+      "lat": 37.352601,
+      "lon": -121.905733,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "3794a34d-764a-4af1-80db-1b0e0ce13fed",
+      "name": "1st St at Younger Ave",
+      "lat": 37.355029582252904,
+      "lon": -121.90443634986876,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "0d730ac1-7ce6-45cf-aca6-b412ea46709d",
+      "name": "Mission St at 1st St",
+      "lat": 37.3509643,
+      "lon": -121.9020161,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "8941eac9-fb07-4d76-b623-fae2af79139e",
+      "name": "5th St at Taylor St",
+      "lat": 37.35090179274617,
+      "lon": -121.89584255218504,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "d6422284-e433-48c5-bf00-751c299189c8",
+      "name": "Jackson St at 5th St",
+      "lat": 37.3487586867448,
+      "lon": -121.89479783177376,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "7d8f4de7-d726-4af2-95b5-33032136239a",
+      "name": "Empire St at 1st St",
+      "lat": 37.3448821,
+      "lon": -121.8969655,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "13d36dad-f238-426c-9525-ec73552fa0b0",
+      "name": "Ryland Park",
+      "lat": 37.342725,
+      "lon": -121.895617,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "ccf416f8-ccc0-4f82-a659-e5d7851d2bcb",
+      "name": "2nd St at Julian St",
+      "lat": 37.34113203547954,
+      "lon": -121.89284384250641,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "d68c980f-e659-4407-8e69-fea3ea84476a",
+      "name": "Devine St at San Pedro St",
+      "lat": 37.338670604639425,
+      "lon": -121.89564406871794,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "fa83f661-540e-4720-9323-824c6529b796",
+      "name": "San Pedro Square",
+      "lat": 37.336802,
+      "lon": -121.8940901,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "67b039eb-ea61-46c0-8da5-1f56de4ad9ca",
+      "name": "Santa Clara St at Almaden Blvd",
+      "lat": 37.333988,
+      "lon": -121.894902,
+      "region": "San Jose",
+      "capacity": 11
+    },
+    {
+      "id": "32974dc6-2aea-45d3-ae66-06f02f45ecaa",
+      "name": "Almaden Blvd at San Fernando St",
+      "lat": 37.331415,
+      "lon": -121.8932,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "caadcda3-bbdb-4cc5-825a-7e3d79ea921e",
+      "name": "San Carlos St at Market St",
+      "lat": 37.330698,
+      "lon": -121.888979,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "c11e189e-080a-40ba-a0a4-98920af4806b",
+      "name": "1st St at San Carlos St",
+      "lat": 37.33116799422201,
+      "lon": -121.88693761825562,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "891b961d-b674-49be-9579-71f5feb4598d",
+      "name": "Paseo De San Antonio at 2nd St",
+      "lat": 37.333798,
+      "lon": -121.886943,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "d12ba265-5bfe-4a00-a19a-a7299822bd65",
+      "name": "Fountain Alley at S 2nd St",
+      "lat": 37.33618830029063,
+      "lon": -121.88927650451659,
+      "region": "San Jose",
+      "capacity": 11
+    },
+    {
+      "id": "bae9be55-04d4-4641-9781-3d1c4b6950f1",
+      "name": "Saint James Park",
+      "lat": 37.339301,
+      "lon": -121.889937,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "5c17e1c8-5d21-4309-afcb-e69da27acf31",
+      "name": "San Jose City Hall",
+      "lat": 37.337391,
+      "lon": -121.886995,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "c52ca98a-70c6-42da-9867-4f35060b5d2e",
+      "name": "San Fernando St at 4th St",
+      "lat": 37.335885,
+      "lon": -121.88566,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "ed707a89-a68d-4921-a4cb-16c268e45a5b",
+      "name": "San Fernando St at 7th St",
+      "lat": 37.3371223728942,
+      "lon": -121.88321471214294,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "7ae6ad74-9212-4a2b-bb52-aba03cb533e2",
+      "name": "Santa Clara St at 7th St",
+      "lat": 37.3391456,
+      "lon": -121.8841054,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "7dfd8e07-81a8-4734-bc70-5e47aadbfa5a",
+      "name": "9th St at San Fernando St",
+      "lat": 37.3383952,
+      "lon": -121.8807965,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "dc464713-3263-40bd-a059-af2efd7a4b9a",
+      "name": "San Carlos St at 11th St",
+      "lat": 37.3364659,
+      "lon": -121.8766132,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "53d1c097-50e3-494d-bddc-bdab49c7c39b",
+      "name": "San Salvador St at 9th St",
+      "lat": 37.333955,
+      "lon": -121.877349,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "753e3e72-9498-4eef-a006-be1848cb36b3",
+      "name": "William St at 10th St",
+      "lat": 37.3327938,
+      "lon": -121.8759263,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "bd217291-f4ad-4e1d-8c13-e27d39a35fef",
+      "name": "5th St at San Salvador St",
+      "lat": 37.33203868095132,
+      "lon": -121.8817663192749,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "453a6d0d-31ce-4204-b2e1-2f9532e4b356",
+      "name": "4th St at San Carlos St",
+      "lat": 37.33279952386071,
+      "lon": -121.88385039567946,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "d6c452d5-88d5-48e2-8028-d46134c2beb8",
+      "name": "Pierce Ave at Market St",
+      "lat": 37.327581,
+      "lon": -121.884559,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "8fccc336-6544-4c73-a096-282131267f78",
+      "name": "Almaden Blvd at Balbach St",
+      "lat": 37.326845739588315,
+      "lon": -121.88920147407019,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "676591be-48bc-4653-995a-c4536e793135",
+      "name": "Locust St at Grant St",
+      "lat": 37.3229796,
+      "lon": -121.8879312,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "0fd9a51c-67ac-4048-b531-bff644b82f47",
+      "name": "Oak St at 1st St",
+      "lat": 37.322124625448566,
+      "lon": -121.88109040260315,
+      "region": "San Jose",
+      "capacity": 23
+    },
+    {
+      "id": "bb54f5c8-5578-4167-9599-8e55154de4fd",
+      "name": "5th St at Virginia St",
+      "lat": 37.3259984,
+      "lon": -121.87712,
+      "region": "San Jose",
+      "capacity": 27
+    },
+    {
+      "id": "46b4ef45-b06b-40eb-9fdf-9bc8ff104a4f",
+      "name": "Bestor Art Park",
+      "lat": 37.3236779,
+      "lon": -121.8741186,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "94c877d2-f064-4373-b372-3f8997a07f30",
+      "name": "South San Jose State",
+      "lat": 37.32031582108647,
+      "lon": -121.87009871006012,
+      "region": "San Jose",
+      "capacity": 31
+    },
+    {
+      "id": "adda58ee-59a9-4586-8210-da874168a93b",
+      "name": "Willow St at Vine St",
+      "lat": 37.3184498,
+      "lon": -121.8831724,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "0cf3890c-4fde-49f7-9daa-7f2842695119",
+      "name": "Palm St at Willow St",
+      "lat": 37.3172979,
+      "lon": -121.884995,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "ea2a009b-6a83-4b81-ba35-c175c492f4f4",
+      "name": "Delmas Ave at Virginia St",
+      "lat": 37.31998798619738,
+      "lon": -121.89322043713115,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "b09fd293-4364-4ce6-9341-0ced58486c5a",
+      "name": "Bird Ave at Coe Ave",
+      "lat": 37.31515792998312,
+      "lon": -121.89783275127412,
+      "region": "San Jose",
+      "capacity": 15
+    },
+    {
+      "id": "4e704be5-b76d-44a5-8d05-a9ba3e5ae20e",
+      "name": "Bird Ave at Willow St",
+      "lat": 37.31128394611736,
+      "lon": -121.89632534980774,
+      "region": "San Jose",
+      "capacity": 19
+    },
+    {
+      "id": "cf792877-0b6a-4594-b388-8eb06599b549",
+      "name": "Willow St at Blewett Ave",
+      "lat": 37.309014074275915,
+      "lon": -121.9000107049942,
+      "region": "San Jose",
+      "capacity": 23
+    }
+  ]
+}
