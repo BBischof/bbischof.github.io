@@ -1,0 +1,26 @@
+{
+  "name": "Connections",
+  "stations": [
+    {
+      "id": "c0bc3212-1e26-438b-9ebd-ea1d1c8e92ef",
+      "name": "Goettingen St at Bacon St",
+      "lat": 37.72694296622841,
+      "lon": -122.40659952163695,
+      "capacity": 23
+    },
+    {
+      "id": "e81efb0f-faee-43dd-b8e0-1e1f0cad61f1",
+      "name": "Metro Dr at Technology Dr",
+      "lat": 37.36767805240811,
+      "lon": -121.9187942147255,
+      "capacity": 23
+    },
+    {
+      "id": "0d6a9101-5b40-4fdf-9315-e494af1baf7b",
+      "name": "Bond St at High St",
+      "lat": 37.774152564302355,
+      "lon": -122.21239820122717,
+      "capacity": 19
+    }
+  ]
+}

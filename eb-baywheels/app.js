@@ -1,5 +1,12 @@
 const STATUS_URL = "https://gbfs.lyft.com/gbfs/2.3/bay/en/station_status.json";
-const STORAGE_KEY = "eb-baywheels-progress-v1";
+const ACTIVE_ROUTE_KEY = "eb-baywheels-active-route-v1";
+const ROUTES = {
+  "east-bay": { stations:"stations.json", directions:"directions.json", label:"East Bay", progressKey:"eb-baywheels-progress-v1" },
+  connections: { stations:"connections-stations.json", directions:"connections-directions.json", label:"Connections", progressKey:"eb-baywheels-connections-progress-v1" }
+};
+const routeId = ROUTES[localStorage.getItem(ACTIVE_ROUTE_KEY)] ? localStorage.getItem(ACTIVE_ROUTE_KEY) : "east-bay";
+const routeConfig = ROUTES[routeId];
+const STORAGE_KEY = routeConfig.progressKey;
 
 const $ = (id) => document.getElementById(id);
 const state = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null") || {
@@ -167,6 +174,8 @@ function toggleLocation() {
 }
 
 function bindEvents() {
+  $("routePicker").value=routeId;
+  $("routePicker").onchange=e=>{ localStorage.setItem(ACTIVE_ROUTE_KEY,e.target.value); location.reload(); };
   $("stationPicker").onclick=()=>{ renderList(); $("stationDialog").showModal(); setTimeout(()=>$("stationSearch").focus(),50); };
   $("stationSearch").oninput=e=>renderList(e.target.value);
   $("rideButton").onclick=completeDock;
@@ -181,9 +190,11 @@ function bindEvents() {
 }
 
 async function boot() {
-  const response=await fetch("stations.json");
+  const response=await fetch(routeConfig.stations);
   const data=await response.json(); stations=data.stations;
-  directions=await fetch("directions.json").then(r=>r.ok?r.json():null).catch(()=>null);
+  directions=await fetch(routeConfig.directions).then(r=>r.ok?r.json():null).catch(()=>null);
+  $("stationSearch").placeholder=`Search ${stations.length} ${routeConfig.label.toLowerCase()} stops`;
+  $("map").setAttribute("aria-label",`${routeConfig.label} station route`);
   if (state.index>=stations.length) state.index=0;
   initMap(); bindEvents(); render(true); refreshStatus();
   setInterval(refreshStatus,60000);

@@ -6,8 +6,10 @@ button, input { font:inherit; }
 button { color:inherit; }
 #map { position:absolute; inset:0; background:#d9ddd5; }
 .leaflet-control-attribution { font-size:9px; }
-.topbar { position:absolute; z-index:500; top:max(14px, env(safe-area-inset-top)); left:14px; right:14px; display:flex; align-items:flex-start; gap:10px; pointer-events:none; }
-.station-picker, .icon-button, .timer-button { pointer-events:auto; border:0; background:rgba(247,244,239,.96); box-shadow:0 5px 22px rgba(20,20,20,.15); }
+.topbar { position:absolute; z-index:500; top:max(14px, env(safe-area-inset-top)); left:14px; right:14px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; pointer-events:none; }
+.topbar-main { width:100%; display:flex; align-items:flex-start; gap:10px; }
+.route-picker, .station-picker, .icon-button, .timer-button { pointer-events:auto; border:0; background:rgba(247,244,239,.96); box-shadow:0 5px 22px rgba(20,20,20,.15); }
+.route-picker { min-height:34px; max-width:160px; padding:0 30px 0 12px; border-radius:17px; color:var(--ink); font-size:12px; font-weight:850; }
 .station-picker { min-width:0; flex:1; display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:9px; align-items:center; min-height:54px; padding:8px 13px; border-radius:17px; text-align:left; }
 .station-picker span:first-child { font-size:12px; font-weight:800; color:var(--muted); white-space:nowrap; }
 .station-picker strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:15px; }
