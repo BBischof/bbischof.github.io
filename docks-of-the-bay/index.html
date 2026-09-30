@@ -251,4 +251,12 @@ document.fonts.ready.then(seqDraw);
 
 
 
+
+<details id="additional-viz" style="border-top:1px solid var(--border);margin-top:24px;padding-top:16px">
+<summary style="cursor:pointer;font-size:20px">Additional visualizations</summary>
+<iframe id="segment-animation-frame" title="Animated routes between docks" style="display:block;width:100%;height:clamp(600px,90vh,1000px);border:0;margin-top:14px" data-src="segment-animation.html"></iframe>
+</details>
+<script>
+(()=>{const section=document.getElementById('additional-viz'),frame=document.getElementById('segment-animation-frame');section.addEventListener('toggle',()=>{if(section.open){frame.src=frame.dataset.src}else{frame.removeAttribute('src')}})})();
+</script>
 </main></body></html>
