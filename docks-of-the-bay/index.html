@@ -258,6 +258,8 @@ document.fonts.ready.then(seqDraw);
 <iframe title="Animated dock visits" style="display:block;width:100%;height:clamp(600px,90vh,1000px);border:0;margin-top:14px" data-src="stop-animation.html"></iframe>
 </details>
 <script>
-(()=>{const section=document.getElementById('additional-viz'),frames=section.querySelectorAll('iframe');section.addEventListener('toggle',()=>{for(const frame of frames){if(section.open){frame.src=frame.dataset.src}else{frame.removeAttribute('src')}}})})();
+(()=>{const section=document.getElementById('additional-viz'),frames=section.querySelectorAll('iframe');
+for(const frame of frames){let observer;frame.addEventListener('load',()=>{observer?.disconnect();if(!frame.hasAttribute('src'))return;const main=frame.contentDocument?.querySelector('main');if(!main)return;const fit=()=>{const height=Math.ceil(main.getBoundingClientRect().height);if(height>0)frame.style.height=height+'px'};observer=new ResizeObserver(fit);observer.observe(main);fit()})}
+section.addEventListener('toggle',()=>{for(const frame of frames){if(section.open){frame.src=frame.dataset.src}else{frame.removeAttribute('src')}}});})();
 </script>
 </main><script src="route-playback.js"></script></body></html>
